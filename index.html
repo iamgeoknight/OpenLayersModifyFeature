@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">    
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+    <title>OpenLayers Modify Geometry</title>
+  </head>
+  <body>    
+    <div class = "container">
+        <div class = "toolbar">
+            <button id = "btn4" title = "Draw Point" geomtype = "Point"></button>
+            <button id = "btn1" title = "Draw Line" geomtype = "LineString"></button>
+            <button id = "btn2" title = "Draw Polygon" geomtype = "Polygon"></button>            
+            <button id = "btn5" title = "Modify Geometry"></button>
+            <button id = "btn3" title = "Clear Graphics"></button>
+        </div>
+        <div id="map" class="map">      
+          <div id = "popup"></div>  
+        </div>        
+    </div>    
+    <script src="script.js"></script>
+  </body>
+</html>
